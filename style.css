@@ -127,9 +127,7 @@ section {
 .about_title{
     text-align: center;
 }
-.about-text{
-   
-}
+
 
 
 .projects-container {
@@ -187,7 +185,7 @@ section {
     gap: 30px;
     background-color: #ffffff;
    height: 300px;
-    width: 395px;
+    width: 320px;
     border-radius: 20px;
     transition: 0.3s;    
 }
@@ -201,7 +199,7 @@ section {
     gap: 20px;
     background-color: #ffffff;
    height: 300px;
-    width: 395px;
+    width: 320px;
     border-radius: 20px;
     transition: 0.3s;    
 }
