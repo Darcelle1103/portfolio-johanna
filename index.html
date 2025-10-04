@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+          <div class="logo">NGOBO SONGA<span class="prenom"> DARCELLE JOHANNA</span></div>
+          <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      
+          
+          <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </header>
+      
+    <section id="home" class="home">
+        <div class="home-text">
+            <h1>Je suis <span>JOHANNA</span>, Développeur en devenir passionné par le web et le design !</h1>
+            <a href="#projects" class="btn">Voir mes projets</a>
+        </div>
+        <div class="home-img">
+            <img src="Capture d'écran 2025-10-04 032449.png" alt="illustration">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="about_title" id="titred" >À propos</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Je m’appelle <span>JOHANNA</span>, passionné par la <br>
+                    création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiante en <span>développement web</span>, <br>
+                     et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J’adore transformer mes idées en projets concrets <br>
+                    et expérimenter avec les nouvelles technologies.</p>
+                <a href="cv.pdf" download class="btn">Télécharger mon CV</a>
+            </div>
+            <div class="about-img">
+                <img src="IMG_E7668.JPG" alt="photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects"> 
+        <h2 id="titred" >Mes Projets</h2><br><br>
+        <div class="projects-container">
+            <div class="project-card">
+                <p>Site web d'un restaurant </p>
+                <span>#html, #css, #js</span>
+                <a href="https://darcelle1103.github.io/NS_food/" class="btn">Voir</a>
+            </div>
+            <div class="project-card">
+                <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                <span>#html, #css, #js</span>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="project-card">
+                <p>Site web d'un restaurant</p>
+                <span>#html, #css</span>
+                <a href="https://darcelle1103.github.io/saveurs-des-d-lices/" class="btn">Voir</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="titrec" >Mes Compétences</h2><br><br>
+        <div class="skills-container">
+            <div  class="skill-box1">
+                <h3>Soft Skills</h3>
+                <p>Gestion de projet</p>
+                <div class="bar"><span style="width:60%"></span></div>
+                <p>Résolution de problème</p>
+                <div class="bar"><span style="width:50%"></span></div>
+                <p>Adaptabilité</p>
+                <div class="bar"><span style="width:80%"></span></div>
+            </div> <br>
+            <div class="skill-box2">
+                <h3>Hard Skills</h3>
+                <p>HTML</p>
+                <div class="bar"><span style="width:90%"></span></div>
+                <p>CSS</p>
+                <div class="bar"><span style="width:50%"></span></div>
+                <p>JavaScript</p>
+                <div class="bar"><span style="width:10%"></span></div>
+                <p>VS Code</p>
+                <div class="bar"><span style="width:80%"></span></div>
+                <p>SQL</p>
+                <div class="bar"><span style="width:50%"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1 class="size" >Vous avez un projet en tête ? <br>
+        <p>N’hésitez pas à me <span>contacter</span></p> </h1>
+        <form>
+            <div class="form-group">
+                <label for="">Votre prénom</label> <br>
+                <input type="text" placeholder="Votre prénom">
+                 <label for="">Votre nom</label> <br> 
+                <input type="text" placeholder="Votre nom">
+            </div>
+            <label  for="" >Votre sujet</label>
+            <input class="border" type="text" placeholder="Votre sujet">
+            <textarea class="border" class="taille" placeholder="Écrivez votre message ici !"></textarea>
+            <button type="submit" id="btn">Envoyer</button>
+        </form>
+    </section>
+
+  
+    <footer>
+        <p class="langage" >Designed by <span>DARCELLE</span> with HTML CSS JS</p>
+        <p class="droits" >Tous droits réservés - 2025</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
