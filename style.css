@@ -185,7 +185,7 @@ section {
     gap: 30px;
     background-color: #ffffff;
    height: 300px;
-    width: 320px;
+    width: 300px;
     border-radius: 20px;
     transition: 0.3s;    
 }
@@ -199,7 +199,7 @@ section {
     gap: 20px;
     background-color: #ffffff;
    height: 300px;
-    width: 320px;
+    width: 300px;
     border-radius: 20px;
     transition: 0.3s;    
 }
